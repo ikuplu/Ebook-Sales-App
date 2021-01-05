@@ -1,0 +1,28 @@
+{
+  "name": "ebook-sales-app",
+  "version": "1.0.0",
+  "description": "Ebook seller",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikuplu/Ebook-Sales-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikuplu/Ebook-Sales-App/issues"
+  },
+  "homepage": "https://github.com/ikuplu/Ebook-Sales-App#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "stripe": "^8.129.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
